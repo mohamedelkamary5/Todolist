@@ -1,0 +1,39 @@
+.ListItems{
+    background: #fff;
+    color: #48519F;
+}
+
+.ListItems p {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.ListItems span{
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 20px;
+    border: 0.3px solid #ccc;
+}
+.ListItems span.title{
+    background: #2ebaee;
+    color: #FFF;
+}
+
+.ListItems span.name,
+form input[type=text]{
+    width: 60%;
+}
+.ListItems span.age,
+form input[type=number]{
+    width: 25%;
+}
+.ListItems span.action,
+form input[type=submit]{
+    width: 15%;
+}
+
+.ListItems span.icon{
+    cursor: pointer;
+    color: red;
+}
